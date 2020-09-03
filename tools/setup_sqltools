@@ -11,5 +11,5 @@ curl -o mtxr.sqltools-0.23.0.vsix http://thedrop.sap-partner-eng.com/files/mtxr.
 curl -o SAPOSS.sap-hana-driver-for-sqltools-0.2.1.vsix http://thedrop.sap-partner-eng.com/files/SAPOSS.sap-hana-driver-for-sqltools-0.2.1.vsix
 cd ~
 echo ""
-echo "Restart this workspace!"
+echo "STOP this workspace and then START it again!"
 echo ""
