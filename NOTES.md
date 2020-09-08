@@ -10,5 +10,7 @@ https://vscode.pro/
 
 https://github.com/mtxr/vscode-sqltools
 
+Automate this in a build job for all languages (node, java, etc.) Notify?
+
 ver=$(cf buildpacks | grep python | cut -d '-' -f 4 | cut -d '.' -f 1-3) ; echo ; echo "Browse to this page for python versions available in this buildpack." ; echo ; echo "https://github.com/cloudfoundry/python-buildpack/releases/tag/$ver" ; echo
 
