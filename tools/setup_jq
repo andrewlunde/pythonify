@@ -23,9 +23,9 @@ ln -s libonig.so.5.0.0 libonig.so.5
 ln -s libonig.so.5.0.0 libonig.so
 
 echo "" >> ~/.bashrc
-echo "export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:/home/user/lib" >> ~/.profile
-echo "" >> ~/.profile
-echo "export PATH=$PATH:/home/user/bin" >> ~/.profile
+echo "export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:/home/user/lib" >> ~/.bashrc
+echo "" >> ~/.bashrc
+echo "export PATH=$PATH:/home/user/bin" >> ~/.bashrc
 
 echo "Stop your Dev Space and Start it again."
 
