@@ -1,0 +1,25 @@
+{
+  "apiVersion": "1",
+  "name": "extension-test",
+  "namespace": "ext-canarybas",
+  "version": "0.0.1",
+  "about": {
+	"description": "Test Extension Management",
+	"author": "Andrew Lunde",
+	"thumbnail": "http://thedrop.sap-partner-eng.com/files/green_eyes.png",
+	"tagline": "We do the work, you do the pleasure."
+  },
+  "yeomanPackages": [
+    {
+      "name": "generator-sap-partner-eng",
+      "versionRange": "1.1.1"
+    }
+  ],
+  "vscodeExtensions": [
+    {
+      "name": "vscode-prettier",
+      "versionRange": "2.3.5",
+      "artifactory": "npm"
+    }
+  ]
+}
