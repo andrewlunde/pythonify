@@ -1,0 +1,180 @@
+    1  cd ..
+    2  mta
+    3  mbt
+    4  pwd
+    5  ls
+    6  cd /etc/
+    7  ls
+    8  cd apt
+    9  ls
+   10  vi sources.list
+   11  vim sources.list
+   12  cd
+   13  ls
+   14  curl -LJO http://thedrop.sap-partner-eng.com/files/python3.tgz
+   15  ls
+   16  tar xzvf python3.tgz 
+   17  ls
+   18  cd projects/
+   19  git clone https://github.com/andrewlunde/pythonify.git
+   20  pythonify/tools/setup_jq 
+   21  cd ..
+   22  ls
+   23  cd bin/
+   24  ls
+   25  cat ~/.bashrc
+   26  set | grep LIB
+   27  cd /lib
+   28  ls
+   29  cd /usr/lib
+   30  ls
+   31  vim ~/.bashrc
+   32  set | grep LIB
+   33  exit
+   34  set | grep LIB
+   35  cd /home/user/usr/lib
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd bin
+   40  ls
+   41  ls -l
+   42  cd
+   43  python3 -V
+   44  pip3 -V
+   45  pip
+   46  pip3
+   47  pip3 -h
+   48  pip3 -?
+   49  python3 -m pip3 -version
+   50  python3 -m pip -version
+   51  python -m ensurepip --default-pip
+   52  ls
+   53  cd usr/bin
+   54  ls
+   55  ls -l
+   56  ln -s python3.7 python
+   57  ls -l
+   58  python --version
+   59  pip --version
+   60  python -m ensurepip --default-pip
+   61  curl -LJO https://bootstrap.pypa.io/get-pip.py
+   62  ls
+   63  rm get-pip.py 
+   64  cd
+   65  ls
+   66  rm get-pip.py 
+   67  curl -LJO https://bootstrap.pypa.io/get-pip.py
+   68  ls
+   69  python get-pip.py --prefix=/home/user/
+   70  pwd
+   71  ls
+   72  cd bin
+   73  ls
+   74  pip --version
+   75  pip3 --version
+   76  set | grep PATH
+   77  cd
+   78  ls
+   79  python get-pip.py --prefix=/home/user
+   80  pip --version
+   81  python -m pip install --upgrade pip setuptools wheel
+   82  python3 -m venv py3
+   83  ls
+   84  history | grep curl
+   85  curl -LJO http://thedrop.sap-partner-eng.com/files/python3.tgz
+   86  history | grep tar
+   87  tar xzvf python3.tgz
+   88  python3 -m venv py3
+   89  python -m ensurepip --default-pip
+   90  ls
+   91  cd bin
+   92  ls
+   93  pwd
+   94  ls -l
+   95  ./pip
+   96  ./pip --version
+   97  python -m pip install --upgrade pip
+   98  ls
+   99  ls -l
+  100  vi pip
+  101  vim pip
+  102  pip --version
+  103  pip install flask
+  104  vi ~/.bashrc
+  105  vim ~/.bashrc
+  106  cd ..
+  107  cd
+  108  ls
+  109  pip --version
+  110  exit
+  111  yo
+  112  cf login -u 
+  113  ls
+  114  yo sap-partner-eng
+  115  cd mta_python/
+  116  yo sap-partner-eng:module-python
+  117  mkdir -p mta_archives ; mbt build -p=cf -t=mta_archives --mtar=py3.mtar
+  118  cf deploy mta_archives/py3.mtar -f
+  119  cf orgs
+  120  cf t -o A-Team_ml
+  121  cfr a
+  122  cf a
+  123  cf d db
+  124  cf s
+  125  cf ds db-only-db
+  126  cf ds DBO_HDI 
+  127  cf t
+  128  cf s
+  129  cf s | grep dbo
+  130  cf a
+  131  cf d dbo-hdb 
+  132  cf ds DBO_HDI 
+  133  cf s | grep DBO
+  134  cf ds DBO_HDI 
+  135  cf sk DBO_HDI
+  136  cf dsk DBO_HDI DI-SPACE-DEPLOY-KEY
+  137  cf sk DBO_HDI
+  138  cf dsk 
+  139  cf dsk BO_HDI andrew.lunde@sap.com:D14@d859c039-b28a-4cd4-b1fa-2d2bea92599a
+  140  cf dsk DBO_HDI andrew.lunde@sap.com:D14@d859c039-b28a-4cd4-b1fa-2d2bea92599a
+  141  cd sk DBO_HDI
+  142  cf sks DBO_HDI
+  143  cf sk DBO_HDI
+  144  cf dsk DBO_HDI HDI-SPACE-DEPLOY-KEY
+  145  cf s
+  146  cf ds DBO_HDI
+  147  cf a
+  148  cf d hdispacedeploy46a8a1a0-a697-4523-96c6-9bcaeb6085d4
+  149  cf s
+  150  cf ds DBO_HDI -f
+  151  cf t
+  152  ls
+  153  cd python
+  154  ls
+  155  python server.py
+  156  pip install -t vendor -r requirements.txt
+  157  cd ..
+  158  ls
+  159  cf t 
+  160  cat README.md 
+  161  mbt build -p=cf -t=mta_archives --mtar=py3.mtar ; cf deploy mta_archives/py3.mtar -f
+  162  cd python
+  163  cat requirements.txt 
+  164  pip install Flask
+  165  pip install cfenv
+  166  pip install sap_py_jwt
+  167  pip install hdbcli
+  168  pip install pydevd
+  169  history | grep upgrade
+  170  python -m pip install --upgrade pip setuptools wheel
+  171  setuptools
+  172  pip install pydevd
+  173  pip install sap_py_jwt
+  174  pip install sap_xssec
+  175  pwd
+  176  ls
+  177  python server.py
+  178  ls
+  179  pip install -t vendor -r requirements.txt
+  180  history
