@@ -1,4 +1,6 @@
 mkdir -p /home/user/projects
+git config --global user.email "andrew.lunde@sap.com"
+git config --global user.name "Andrew Lunde"
 cd ~
 curl -LJO http://thedrop.sap-partner-eng.com/files/python3.tgz
 tar xzvf python3.tgz
