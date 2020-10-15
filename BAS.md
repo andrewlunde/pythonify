@@ -1,3 +1,4 @@
+```
 mkdir -p /home/user/projects
 git config --global user.email "andrew.lunde@sap.com"
 git config --global user.name "Andrew Lunde"
@@ -22,3 +23,4 @@ python -m pip install --upgrade setuptools
 python -m pip install --upgrade wheel
 pip --version
 pip install cfenv
+```
