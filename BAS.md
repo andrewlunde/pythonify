@@ -13,9 +13,10 @@ cd ~
 echo "" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:/home/user/lib" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/usr/lib" >> ~/.bashrc
-echo "export PATH=$PATH:/home/user/usr/bin:/home/user/usr/local/bin" >> ~/.bashrc
+echo "export PATH=$PATH:/home/user/usr/bin:/home/user/usr/local/bin:/home/user/bin" >> ~/.bashrc
 echo "" >> ~/.bashrc
 echo "Restart Bash."
+cd ~
 curl -LJO https://bootstrap.pypa.io/get-pip.py
 python get-pip.py --prefix=/home/user
 python -m pip install --upgrade pip
